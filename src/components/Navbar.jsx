@@ -44,7 +44,7 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              to="home"
+              to="services"
               spy={true}
               smooth={true}
               duration={500}
@@ -53,13 +53,13 @@ const Navbar = () => {
               Services
             </Link>
             <Link
-              to="pages"
+              to="doctors"
               spy={true}
               smooth={true}
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Pages
+              Doctors
             </Link>
             <Link
               to="blog"
@@ -110,7 +110,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to="home"
+            to="services"
             spy={true}
             smooth={true}
             duration={500}
@@ -120,14 +120,14 @@ const Navbar = () => {
             Services
           </Link>
           <Link
-            to="pages"
+            to="doctors"
             spy={true}
             smooth={true}
             duration={500}
             className=" hover:text-hoverColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Pages
+            Doctors
           </Link>
           <Link
             to="blog"
