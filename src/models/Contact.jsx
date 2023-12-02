@@ -48,7 +48,7 @@ const Contact = ({ closeForm }) => {
           <div className=" flex gap-5">
             <Button title="Book Appointment" />
             <button
-              className=" bg-backgroundColor text-white px-10 rounded-md active:bg-green-500"
+              className=" bg-backgroundColor text-white px-10 rounded-md active:bg-red-500"
               onClick={closeForm}
             >
               Close
