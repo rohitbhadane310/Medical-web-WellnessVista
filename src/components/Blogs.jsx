@@ -25,7 +25,7 @@ const Blogs = () => {
           <Button title="Our Articles" />
         </div>
       </div>
-      <div className=" my-5">
+      <div className=" my-8">
         <div className=" flex flex-wrap justify-center gap-5">
           <BlogCard img={img1} headlines="Unraveling the Mysteries of Sleep" />
           <BlogCard img={img2} headlines="The Heart-Healthy Diet" />

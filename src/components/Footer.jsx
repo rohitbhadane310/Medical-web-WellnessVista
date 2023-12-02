@@ -77,7 +77,7 @@ const Footer = () => {
             </Link>
           </nav>
         </div>
-        <div className=" w-full lg:w-1/4">
+        <div className=" w-full md:w-1/4">
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
           <nav className=" flex flex-col gap-2">
             <Link to="/" spy={true} smooth={true} duration={500}>
